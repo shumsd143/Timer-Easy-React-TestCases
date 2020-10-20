@@ -1,10 +1,12 @@
-## Render Multiple Components
+# Simple Timer
 
-### What is your dream project that you'd like to make after you learn React?
-
-- Display the name of the project and description of the project. Both of them should be in separate html elements
-- Provide both the elements with data-ns-test attribute values as "project-name" and "project-description"
-- write your code in App.js
-
+- Create a Timer using React using class Date.
+- When component Timer is mounted a Timer should update the state variable <q>date<q> with current Date.
+- This Timer should update the date variable regularly at an interval of 1 sec.
+- When the component is unmounted then all timers should be terminated to freeUp resources.
 
 
+## Acceptance Criteria
+- Use of JavaScript class Date
+- Update Timer in one second.
+- Termination of all timer on unmounting.
